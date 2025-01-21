@@ -30,4 +30,13 @@
         font-size: 0.5 rem;
         font-weight: 500;
     }
+    .btn-secondery{
+        text-align: center;
+    }
+    .curriculum-container{
+        flex-direction: column;
+    }
+    .slider-icon{
+        display: none;
+    }
 }

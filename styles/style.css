@@ -227,16 +227,26 @@ header{
     text-align: center;
 }
 
-.slider{
+.slider-icon{
     display: flex;
-
+    gap: 10px;
+    justify-content: center;
 }
-.sliders{
-    border-radius: 30px;
-    background: rgb(254, 163, 1);
+.slider-icon > span{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
     width: 60px;
     height: 60px;
+    border-radius: 30px;
+    background: rgb(254,163,1);
+
 }
+
+
+
+
 
 
 .hide{
