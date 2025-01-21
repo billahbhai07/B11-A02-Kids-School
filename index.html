@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kids-School</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 </head>
 
 <body class="quicksand-fonts">
@@ -21,9 +23,12 @@
                 <li class="nav-item"><a href="#" class="nav-link, facilities">Facilities</a></li>
                 <li class="nav-item"><a href="#" class="nav-link, admission">admission</a></li>
             </ul>
-            <button class="btn-prymary">Contact</button>
+            <div class="menuicon"><i class="fa-solid fa-bars"></i></div>
+            <div class="responsive">
+                <button class="btn-prymary">Contact</button>
+            </div>
         </nav>
-        <div class="banner display-flex">
+        <div class="banner hide display-flex">
             <div class="banner-container">
                 <div class="banner-title"><span class="orange">Empowering </span><br>
                     students from small <br> age <span class="sky-blue">towards vision</span></div>
@@ -35,7 +40,7 @@
         </div>
     </header>
     <main>
-        <section class="curriculum display-flex">
+        <section class="curriculum display-flex hide">
             <h1 class="title">Standard Curriculum</h1>
             <div class="curriculum-container">
                 <div class="card1">
@@ -65,7 +70,8 @@
             </div>
             <div class="slider">
                 <div class="sliders">
-                    <button><</button>
+                    <button>
+                        << /button>
                 </div>
                 <div class="sliders">
                     <button>></button>

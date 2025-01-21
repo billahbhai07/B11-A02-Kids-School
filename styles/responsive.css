@@ -1,0 +1,33 @@
+@media screen and (max-width: 576px) {
+    .navLinks, nav-links, .btn-prymary, .nav-item, h3 {
+        display: none;
+    }
+    .navbar img {
+        margin: 12px;
+    }
+    .menuicon{
+        display: block;
+    }
+    .logo-container > img {
+        margin: 12px;
+    }
+    .banner-title{
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .banner-description{
+        text-align: center;
+        font-size: 0.8 rem;
+        font-weight: 500;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .responsive{
+        text-align: center;
+        font-size: 0.8 rem;
+        font-weight: 500;
+    }
+}
