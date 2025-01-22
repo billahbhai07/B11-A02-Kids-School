@@ -57,6 +57,52 @@
         margin: 0px 30px;
         height: auto;
     }
+
+    .storyCard1{
+        display: none;
+    }
+
+    .storyContent {
+        padding: 30px 10px 0px;
+    }
+    .storyCard2 {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    .storyCard3 {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    .storyCard4 {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    .storyCard5 {
+        width: 100%;
+        height: 100%;
+    }
+    .storiesGrid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin: auto 10px;
+    }
+    .storyImg .dateBtn1 {
+        position: absolute;
+        bottom: -22px;
+        left: 38px;
+        padding: 5px 5px;
+        color: rgb(255, 255, 255);
+        font-size: 0.8rem;
+        border-radius: 47px;
+        background: rgb(60, 216, 232);
+        border: none;
+    }
+    .storyHeading{
+        display: block;
+    }
     footer{
         height: 642px;
     }
