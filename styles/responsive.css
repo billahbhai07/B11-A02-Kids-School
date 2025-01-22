@@ -57,4 +57,20 @@
         margin: 0px 30px;
         height: auto;
     }
+    footer{
+        height: 642px;
+    }
+    .footer{
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .contract-title{
+        display: block;
+    }
+    .about > h3{
+        display: block;
+    }
+    .foooter-description, .about > ul{
+        margin-bottom: 32px;
+    }
 }
