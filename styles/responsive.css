@@ -17,18 +17,24 @@
 
     .banner{
         flex-direction: column-reverse;
-        max-width: 570px;
+
     }
     .banner-title{
-        width: 500px;
+        margin-bottom: 20px;
+        padding: 0 30px;
         text-align: center;
-        font-size: 2.8rem;
+        font-size: 2rem;
         font-weight: bold;
+
     }
     .banner-description{
+        padding: 0 30px;
         text-align: center;
         font-size: 0.5 rem;
-        font-weight: 500;
+        font-weight: 400;
+    }
+    .banner > img{
+        width: 300px;
     }
     .btn-secondery{
         text-align: center;
@@ -104,7 +110,7 @@
         display: block;
     }
     footer{
-        height: 642px;
+        height: 800px;
     }
     .footer{
         flex-direction: column;
